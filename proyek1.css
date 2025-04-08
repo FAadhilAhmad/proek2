@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #f5f5fc;
+    display: flex;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: 240px 1fr 280px;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .upgrade-btn {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .topbar input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .welcome-section {
+    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 160px;
+    height: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .right-sidebar {
+    background: #fff;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
