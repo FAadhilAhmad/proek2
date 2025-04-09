@@ -1,115 +1,133 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
-    background: #f5f5fc;
-    display: flex;
+    font-family: poppins, sans-serif;
+}
+body{
+    background-color: #f5f5fc;
     height: 100vh;
     color: #333;
-  }
-  
-  .dashboard {
+    display: flex;
+}
+.dashboard{
     display: grid;
-    grid-template-columns: 240px 1fr 280px;
+    grid-template-columns: 200px 2fr;
     grid-template-rows: auto;
     width: 100%;
-  }
-  
-  .sidebar {
+    grid-gap: 10px;
+}
+.searcbar{
+    display: flex;
+    justify-content: space-between;
+}
+.searcbar input{
+    width: 200px;
+    border: 1 solid #ccc;
+}
+.searcbar img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.dashboard{
+    margin: 10px;
+    padding: 10px;
+}
+.sidebar nav ul {
+    list-style: none;
+}
+.sidebar nav ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.sidebar nav ul li a:hover{
+    color: #ddd;
+    background-color: #6c63ff;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar{
     background: #fff;
     padding: 20px;
     border-right: 1px solid #ddd;
-  }
-  
-  .sidebar .logo {
+    height: 100vh;
+}
+.logo{
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar ul li {
     margin-bottom: 20px;
-    cursor: pointer;
-  }
-  
-  .upgrade-btn {
+}
+.iconup{
     margin-top: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.iconup button{
     padding: 10px 20px;
     background: #6c63ff;
     color: white;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
-  }
-  
-  .main-content {
-    padding: 20px;
-  }
-  
-  .topbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .topbar input {
-    width: 60%;
+    font-size: 16px;
+    border: none;
+
+}
+.searcbar input{
     padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .welcome-section {
-    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
-    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+.Welcome-HEader{
+    margin: 10px;
+    padding: 30px;
+    background: linear-gradient(135deg, #6c63ff, #3b82f6 );
     border-radius: 20px;
     color: white;
-    margin-bottom: 30px;
-  }
-  
-  .welcome-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .section {
-    margin-bottom: 30px;
-  }
-  
-  .card-container {
+    font-size: 24px;    
     display: flex;
-    gap: 15px;
-    margin-top: 10px;
-  }
-  
-  .card {
-    background: white;
-    padding: 15px;
-    border-radius: 15px;
-    width: 160px;
-    height: 150px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    text-align: center;
-  }
-  
-  .right-sidebar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Welcome-HEader button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.Welcome-HEader button:hover{
+    background: #f5f5fc;
+    cursor: pointer;
+}
+.card{
     background: #fff;
     padding: 20px;
-    border-left: 1px solid #ddd;
-  }
-  
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #e6c74e, #82acef );
+    justify-content: center;
+    align-items: center;
+}
+.container-con{
+    display: flex;
+    gap: 20px;
+
+}
+.content h2{
+    padding: 10px;
+    font-size: 24px;
+}
