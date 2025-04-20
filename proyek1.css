@@ -104,3 +104,54 @@ body{
   width: 50%;
   margin-right: 10px;
 }
+.first-con{
+background: #2AB7A9;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+/* styling main end */
+
+/* styling grid 2 */
+.container-property{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+/* styling grid 2 end */
+
+/* styling main kanan */
+.container-card{
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.card{
+  background: linear-gradient(145deg, #2AB7A9, #70C1B3, #B2DBD5);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+/* styling main kanan */
+.main-kiri{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.container-card2{
+  gap: 20px;
+}
+.card2{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #2AB7A9;
+}
